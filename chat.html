@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="kuntavaalit">
+    <meta name="author" content="Veikko">
+
+    <title>Kuntavaalit Hanko 2021</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+    <!--  google font h5 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Page Content -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <img src="kuvat/logo.jpg" width=30 height=30 alt="talvimaisema">
+        <a class="navbar-brand" href="#">Kuntavaalit Hanko 2021</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Etusivu
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ehdokkaat.html">Ehdokkaat</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Vaalikone
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vaalikone.html">Vaalipaneeli</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="yhteys.html">Ota yhteyttä</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="container">
+        <img class="palkki" src="kuvat/testaa.jpg" alt="Hanko">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="chatKuulumiset">
+                    <h2 id="paneeli">Vaalipaneeli <img src="kuvat/smile.jpg" class="small" width="30" height="30" alt="smile" id="smiley"></h2>
+                    <h5>Kysymyksiä ehdokkaille</h5>
+                    <p>Jokainen keskustelija vastaa omien viestiensä sisällöstä, joiden on oltava Suomen lain ja hyvien tapojen mukaista. Vaikka on eri mieltä asiasta, niin oman näkökannan/kriitikin voi esittää fiksusti ja rakentavasti.</p>
+
+                </div>
+            </div>
+        </div>
+        <form onsubmit="return false">
+            <div class="row chat">
+                <div class="col-lg-12">
+
+
+                    <label>Nimimerkki:</label><br>
+
+                    <input type="text" id="nimi" size=16 required placeholder="Nimimerkki"><br>
+                </div>
+            </div>
+            <div class="row chat">
+                <div class="col-lg-12">
+                    <textarea id="sinunViesti" placeholder="Viestisi..."></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <input type="button" class="painikkeet" id="lahetaChatti" value="lähetä" onclick="laheta()"><br>
+                </div>
+                <div class="col-lg-2">
+                    <input type="reset" class="painikkeet" value="tyhjennä">
+                </div>
+                <div class="col-lg-8">
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+
+            <div class="col-lg-12 darker">
+                <h6>Viestiketju</h6>
+                <div class="viestit">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="py-55 bg-dark">
+
+        <p class="m-0 text-center text-white">Copyright &copy; Veikko Lahti 2021<br>Sähköposti: <a href="mailto:fellow90@hotmail.com">email</a></p>
+
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+        var firebaseConfig = {
+            apiKey: "AIzaSyDLv_laFyHvYBjZH0iQoJz44UQahK0GBWw",
+            authDomain: "chattiprojekti-c4d9b.firebaseapp.com",
+            databaseURL: "https://chattiprojekti-c4d9b-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "chattiprojekti-c4d9b",
+            storageBucket: "chattiprojekti-c4d9b.appspot.com",
+            messagingSenderId: "954454712255",
+            appId: "1:954454712255:web:b1a4c449f22c3070b54b0a",
+            measurementId: "G-0SQLN34RSS"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+
+        // oma skripti kaikki tietokantaan liittyvät viittett pitää olla config määrittelun sisällä!!!
+        var firebaseRefRoot = firebase.database().ref();
+        var viestit = firebaseRefRoot.child('viestisi');
+        tulosta();
+
+        function laheta() {
+
+
+            var henkilo = "chattaaja";
+            var d = new Date();
+            var dd = d.getDate()
+            var mm = d.getMonth() + 1; //January == 0!
+            var yyyy = d.getFullYear();
+            var time = d.toLocaleTimeString();
+            if (dd < 10) {
+                dd = '0' + dd
+            } // alkunolla jos < 10
+            if (mm < 10) {
+                mm = '0' + mm
+            }
+            d = dd + '/' + mm + '/' + yyyy;
+
+            // lähetetään tiedot tietokantaan 
+            var chatnimi = document.getElementById("nimi").value;
+
+            var chatviesti = document.getElementById("sinunViesti").value;
+
+
+            firebaseRefRoot.child("viestisi").push().set({
+                henkilo: henkilo,
+                aika: time,
+                pvm: d,
+                nimi: chatnimi,
+                viesti: chatviesti
+
+            })
+
+            // luetaan kaikki child-"viestit" alta key-"viesti" arvot
+            tulosta();
+        }
+
+        function tulosta() {
+            $(".viestit").empty();
+            viestit.on('child_added', snap => {
+                if (snap.child("henkilo").val() == "chattaaja") {
+
+                    var nimi = snap.child("nimi").val();
+                    var pvm = snap.child("pvm").val();
+                    var aika = snap.child("aika").val();
+                    var viestisi = snap.child("viesti").val();
+                    aika = aika.substr(0, 5);
+
+                    var apu = '<div class="list-group-item" style = "background-color:rgb(238, 240, 240)">' + viestisi + "<br><tab>" + "&nbsp;" + "&nbsp;" + "&nbsp;" + nimi + " " + pvm + " klo." + aika + "<br>" + '</div>' + "<br>";
+
+
+                    $(".viestit").append(apu);
+                }
+            });
+        }
+
+    </script>
+
+</body>
+
+</html>

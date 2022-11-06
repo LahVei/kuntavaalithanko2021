@@ -1,0 +1,65 @@
+[{
+        "kaupunki": "Hanko",
+        "nimi": "Päivi Heinonen",
+        "numero": 2,
+        "puolue": "PS",
+        "kuva": "<img src='kuvat/marko.jpg'>",
+        "vastaukset": ["2", "2", "1", "1", "3", "4", "4", "3", "2"]
+},
+    {
+        "kaupunki": "Hanko",
+        "nimi": "Carl Hougberg",
+        "numero": 3,
+        "puolue": "KOK",
+        "vastaukset": ["1", "2", "3", "3", "2", "1", "2", "3", "2"]
+},
+    {
+        "kaupunki": "Hanko",
+        "nimi": "Kaitsu Kankaristo",
+        "numero": 4,
+        "puolue": "KOK",
+        "vastaukset": ["1", "2", "3", "3", "2", "1", "2", "3", "2"]
+},
+    {
+        "kaupunki": "Hanko",
+        "nimi": "Katja Liettyä",
+        "numero": 5,
+        "puolue": "KOK",
+        "vastaukset": ["1", "2", "3", "3", "2", "1", "2", "3", "2"]
+},
+    {
+        "kaupunki": "Hanko",
+        "nimi": "Marko Niemi",
+        "numero": 6,
+        "puolue": "KOK",
+        "vastaukset": ["1", "2", "3", "3", "2", "1", "2", "3", "2"]
+},
+    {
+        "kaupunki": "Hanko",
+        "nimi": "Pera Ruuska",
+        "numero": 7,
+        "puolue": "KOK",
+        "vastaukset": ["1", "2", "3", "3", "2", "1", "2", "3", "2"]
+},
+    {
+        "kaupunki": "Hanko",
+        "nimi": "Tony Särs",
+        "numero": 8,
+        "puolue": "KOK",
+        "vastaukset": ["1", "2", "3", "3", "2", "1", "2", "3", "2"]
+},
+    {
+        "kaupunki": "Hanko",
+        "nimi": "Henrik Väisänen",
+        "numero": 9,
+        "puolue": "KOK",
+        "vastaukset": ["1", "2", "3", "3", "2", "1", "2", "3", "2"]
+},
+    {
+        "kaupunki": "Hanko",
+        "nimi": "matti rantanen",
+        "numero": 10,
+        "puolue": "KOK",
+        "vastaukset": ["1", "2", "3", "3", "2", "1", "2", "3", "2"]
+},
+]

@@ -1,0 +1,1601 @@
+/* style all elements with a required attribute */
+
+
+/* CSS vaalikone alkaa  */
+
+
+/*
+.marquee {
+    margin: 0px auto;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 30s linear infinite;
+
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translate(50%, 0);
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+.liuku {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+*/
+.py-55 {
+    width: 102% !important
+}
+.logo{
+    width:30px;
+    height:30px
+}
+
+#ehdokas1000 {
+    display: none;
+    margin-left: 30px
+}
+
+.card {
+    margin-top: 20px !important
+}
+
+.iso {
+    font-size: 16px;
+    margin: 20px;
+    font-weight: 500;
+    font-family: 'Lora', serif
+}
+
+.hakuja {
+    color: rgb(255, 196, 0);
+    font-size: 32px;
+    font-family: 'Reggae One';
+    font-weight: 1000
+}
+
+.oikeinicon {
+    width: 40px;
+}
+
+.tekstitoikein {
+    margin-left: 65px
+}
+
+.vaalikoneteesit {
+    margin-top: 10px;
+    margin-left: 8%;
+    background: #f0f0ba;
+    margin-bottom: 10px;
+    width: 84%;
+    padding: 10px;
+    font-family: 'Lora', serif;
+}
+
+.omakuva {
+    border-radius: 50%
+}
+
+#tulostusmaara {
+    font-family: "poppins", "sans serif";
+    font-size: 16px;
+    margin-top: 20px
+}
+
+
+.vaalikoneetsi {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'lora', "sans serif";
+}
+
+
+.fas {
+    color: green;
+    margin-right: 10px;
+    font-size: 1.4em
+}
+
+
+
+#vaalikyna {
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 32%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+
+}
+
+.mielipide {
+    width: 60%;
+    margin-left: 2%;
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Lora', serif;
+    background: #3f5183;
+    color: #ffffff;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alla-linkki,
+.linkkisp {
+    font-family: 'Lora', serif;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    text-align: center
+}
+
+
+
+.valinta {
+    font-family: "poppins", "sans serif";
+    color: #2c5b7e;
+    width: 60%;
+    border: 2px solid #133a5c;
+    font-weight: 600;
+    padding: 5px;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 20px;
+    box-shadow: 0px 2px 2px;
+    margin-left: 20px;
+
+}
+
+.valinta2 {
+    font-family: "poppins", "sans serif";
+    color: #2c5b7e;
+    width: 60%;
+    font-weight: 600;
+    padding: 5px;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+}
+
+.tassa-ehdokkaat {
+    margin-top: 100px;
+}
+
+.painikkeet {
+    width: 80px;
+    background-color: #4b8ac1;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+
+}
+
+.lahetakysely {
+    width: 140px;
+    height: 40px;
+    background-color: #4b8ac1;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.lahetakyselymaara {
+    width: 70px;
+    height: 40px;
+    background-color: #4b8ac1;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#tunnus {
+    background-color: beige;
+    border-radius: 0px;
+    width: 160px;
+    color: black;
+    margin: 20px
+}
+
+.lahetakysely:hover {
+    font-weight: 500
+}
+
+.valitsepuolue {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 2px #746969 !important;
+
+    background-color: #3582ce;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#puolueet,
+.montako {
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: #3582ce;
+    color: white;
+    height: 40px;
+    padding: 2px;
+    border: black 1px solid
+}
+
+#puolueet:hover {
+
+    font-weight: 500
+}
+
+.montako:hover {
+
+    font-weight: 500
+}
+
+.valinta:hover {
+    color: #fcfdfd !important;
+    background-color: #63a9e5;
+}
+
+#valitutEhdokkaat {
+    margin: 30px !important;
+}
+
+.paivitys {
+    margin-bottom: 500px;
+    margin-top: 50px;
+    color: rgb(255, 196, 0);
+    font-size: 24px;
+    text-align: center
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+
+}
+
+input[type="submit"] {
+    margin-left: 90px
+}
+
+.katkos {
+    margin-top: 20px;
+    border-bottom: solid 1px black;
+}
+
+
+
+.linkki {
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.ehdokasNimi {
+    margin-left: 10px;
+    color: #fefffe;
+    font-size: 25px;
+}
+
+.ehdokaskuvat {
+    width: 150px;
+    height: 200px;
+    position: relative;
+    top: 10;
+    left: 0;
+    border-radius: 10px;
+    margin-top: 40px;
+
+}
+
+
+.ehdokasnumero {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    /*background-color: rgb(245, 220, 114);*/
+    color: black;
+    padding: 15px;
+    border-radius: 50%;
+    border: 6px white solid;
+    font-family: "Lora", "Verdana", sans-serif;
+}
+
+.nimet {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 16px
+}
+
+.kuva2 {
+    font-weight: 600;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 133px;
+    left: 80px;
+
+
+}
+
+.parent {
+    position: relative;
+    margin-left: 15px;
+    margin-top: 5px;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+
+#kysely {
+    background-color: #fcfaf0;
+    width: 84%;
+    margin-left: 8%
+}
+
+.valittu {
+    width: 100%;
+    height: 200px;
+    background-color: #2d2746;
+
+}
+
+/* CSS vaalikone päättyy  */
+
+
+/* CSS DIAGRAM */
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.body {
+    background: #121111;
+}
+
+.fa-clock {
+    margin-right: 10px;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 4px solid #801a1a;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #543d6f;
+}
+
+.card-title {
+    color: #5e4f89;
+}
+
+.containerr {
+    width: 96%;
+    margin: 10%;
+    background: #b4bfb8;
+    padding: 20px;
+    overflow: hidden;
+    float: left;
+}
+
+.container {
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 10px;
+ 
+}
+ 
+
+
+
+.horizontal .progress-bar {
+    float: left;
+    height: 45px;
+    width: 150%;
+    padding: 12px 0;
+    background: #ededed;
+}
+
+.horizontal {
+    margin-left: 20px
+}
+
+
+
+.list-group-item {
+    color: #61567b;
+    background: #d7dede
+}
+
+.horizontal .progress-track {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background: #d9e3dd;
+}
+
+.horizontal .progress-fill {
+    position: relative;
+    background: #666;
+    height: 20px;
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    font-family: "Lato", "Verdana", sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.rounded .progress-track,
+.rounded .progress-fill {
+    border-radius: 3px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+}
+
+#aandata {
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    padding: 10px
+}
+
+
+
+/* CSS diagram päättyy  */
+
+/* CSS diagram covid alkaa  */
+
+/* ehdokkaat alkaa */
+
+.ehdokkaat {
+    text-align: center;
+    background: #2c5b7e;
+    color: #ffffff;
+    width: 84%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-top: 30px;
+    margin-left: 8%;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+
+.ehdokasbody {
+    background-color: #efecd6;
+    margin: 5px;
+    border: solid 2px;
+    padding: 3px;
+    border-radius: 5px
+}
+
+.puoluelogo {
+    width: 300px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.puoluelogovino {
+    width: 250px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.puoluelogoskp {
+    width: 180px;
+    height: 180px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.puoluelogokok {
+    width: 260px;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.puoluelogops {
+    width: 260px;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.puoluelogokesk {
+    width: 260px;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.puoluelogokorkea {
+    width: 220px;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px
+}
+
+.puoluelogomatala {
+    width: 300px;
+    height: 140px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+
+/* ehdokkaat loppuu */
+
+#tilanneOsasto {
+    color: rgb(255, 196, 0);
+    font-size: 24px;
+    font-family: 'Reggae One', cursive;
+}
+
+#tilanneTeho {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-family: 'Reggae One', cursive;
+}
+
+#tyo {
+
+    color: #1e0c69;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 3px;
+    width: 80%
+}
+
+
+/* CSS diagram covid päättyy  */
+
+
+
+/* CSS tilasto alkaa  */
+
+th {
+    background-color: #2e3e3e;
+    color: white
+}
+
+#tilasto {
+    width: 96%;
+    margin-top: 30px
+}
+
+#otsikko {
+    color: #0c0f39;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center
+}
+
+.raita {
+    background-color: #d9e3dd
+}
+
+/* CSS tilasto päättyy  */
+
+body {
+    width: 100%;
+    margin-left: 0%
+}
+
+#paneeli {
+    background-color: #e8f0f0;
+    margin-top: 20px
+}
+
+.chatKuulumiset,
+viestit {
+    margin: 10px;
+    width: 84%;
+    margin-left: 8%
+}
+
+.chat {
+    margin-left: 40px
+}
+
+
+
+h4 {
+    margin: 5px
+}
+
+
+#sinunViesti {
+    height: 7em;
+    width: 23em;
+    margin-left: 5px
+}
+
+.viestit {
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+
+.my-4 {
+    margin-left 20px !important
+}
+
+.card-body {
+    height: 100px;
+}
+
+.card-img-top {
+
+    height: 100px;
+    width: 100px;
+    margin-top: 5px !important;
+    margin-left: 0%
+}
+
+.palkki {
+    width: 84%;
+    height: 250px;
+    margin-left: 8%;
+    margin-right: 8%;
+
+    margin-top: 10px
+}
+
+.card-img-topp {
+
+    height: 100px;
+    width: 100px;
+    margin-top: 5px !important;
+    margin-left: 0%
+}
+
+h3 {
+    background: #b4bfb8;
+    width: 100%;
+    padding: 20px;
+    margin-top: 15px
+}
+
+
+.prosentit {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: #1e2648;
+    font-weight: 600
+}
+
+h6 {
+    font-family: 'Lora', serif;
+    margin-left: 20px;
+
+}
+
+.vari h5 {
+    color: #57616a !important;
+    text-align: center !important;
+    padding: 10px !important;
+    margin-bottom: 20px !important;
+
+}
+
+
+
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+    border: solid 1px #ddd;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+
+#nimi {
+    margin-bottom: 10px;
+}
+
+/* <--- Chat */
+
+/* animaatio ---> */
+.tehoste {
+    position: relative;
+}
+
+#smiley {
+    position: relative
+}
+
+
+
+/* animaatio väriefekti */
+.tehoste {
+    font-weight: 600;
+    padding: 10px;
+    font-size: 20px;
+    background-color: azure;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        color: #0b0b0b;
+    }
+
+    50% {
+        color: #FF4136;
+
+    }
+
+    100% {
+        color: #0b0b0b;
+
+    }
+}
+
+/* <--- animaatio  */
+
+
+/* index.html firebase tulostus */
+.list-group {
+    background-color: rgb(171, 188, 188) !important;
+}
+
+/*
+ label {
+     margin-left: 8px
+ }
+*/
+
+.card-header {
+    background-color: #bebcba;
+    color: black
+}
+
+.card-header a {
+    color: #181a1a;
+}
+
+.card {
+    padding: 15px
+}
+
+.vaalea {
+    color: #39345d
+}
+
+/* index.html lomake --> */
+
+
+
+input[type="submit"]:hover {
+
+    font-weight: 500
+}
+
+input[type="reset"]:hover {
+
+    font-weight: 500
+}
+
+
+input[type="text"],
+input[type="email"] {
+    border-radius: 10px;
+}
+
+input[type="text"]:hover {
+    background-color: #d0d2e3;
+}
+
+input[type="email"]:hover {
+    background-color: #d0d2e3;
+}
+
+/* <-- lomake */
+
+#saanyt {
+    margin-left: 10px;
+    text-align: center;
+    color: #4b4757;
+    margin-top: 4%;
+    font-size: 20px
+}
+
+#saatila {
+    font-size: 14px;
+    margin-left: 8%;
+    margin-top: 10px;
+    font-weight: 500;
+    background-color: #fbffa0;
+    width: 84%;
+    text-align: center;
+    height: 50px
+}
+
+/*alapalkki*/
+.py-55 {
+    margin-top: 80px;
+    width: 100%;
+    height: 60px !important
+}
+
+.link {
+    position: relative;
+    color: #ffffff !important;
+    text-decoration: none;
+    font-family: 'Cardo', serif;
+    margin-bottom: 35px
+}
+
+.link:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+li.active a:before,
+.link:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    /*active viivan leveys*/
+}
+
+/* aktiivisen & hover-linkin väri */
+
+
+/*Alasvetovalikon värien vaihdossa !important-komentoa kumoaa bootstrapin omat css-määritykset:
+.nav-item .dropdown-menu a:hover {
+    color: black !important;
+    background: #e2d8f0;
+    cursor: pointer;
+}
+
+.nav-item .dropdown-menu {
+    background-color: rgb(124, 128, 141);
+
+}
+
+*/
+.navbar-collapse {
+    margin-left: 0%
+}
+
+
+.col-lg-8 h3 {
+    color: #543d6f
+}
+
+footer {
+    margin-top: 100px;
+    width: 100% !important;
+}
+
+#saanyt {
+    margin-left: 0px;
+    color: #4b4757;
+    margin-top: 0%;
+    font-size: 0px
+}
+
+/*------------------------------------------------*/
+/*Voit vaihtaa kontrollipainikkeiden (svg-kuvia) värin mieleisiksi.   
+
+.carousel-control-prev-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+	}
+ 
+	.carousel-control-next-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}*/
+
+/*------------------------------------------------*/
+/*Esim. voit tehdä karusellista koko sivun levyisen, jolloin isolla näytöllä katoavat yllä olevassa kuvassa olevat harmaat reunat.  Tämä sopii parhaiten matalille ja leveille kuville. Koodi:*/
+
+
+/*------------------------------------------------*/
+/*Esim. jos haluat karusellin päällä olevat tekstit pois pienellä näytöllä:
+
+
+
+*****************  MEDIAQUERY   *********************
+*/
+
+
+
+
+
+@media only screen and (min-width: 990px) {
+    .container {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .montako,
+    #puolueet {
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    form {
+        width: 150%;
+    }
+
+    .lahetakysely {
+        margin-left: 100px
+    }
+
+    .ehdokasyla {
+        margin-left: 100px
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .container {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .lahetakysely {
+        margin-left: 80px
+    }
+
+    input[type="submit"] {
+        margin-left: 70px
+    }
+
+    #vaalikyna {
+        width: 60%;
+        height: 80%;
+        margin-top: 0%;
+        margin-left: 20%;
+        border-radius: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .oikeinicon {
+        width: 35px
+    }
+
+    .prosentit,
+    .nimet {
+        margin: 5px;
+        font-size: 16px
+    }
+
+    #alku {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mielipide {
+        margin-left: 0px;
+        width: 100%
+    }
+
+    .valinta {
+        margin-left: 0px;
+        width: 100%
+    }
+
+
+    .containerr,
+    #aandata,
+    #tilasto {
+        width: 96%;
+        margin-left: 2%
+    }
+
+    #tyo {
+        font-size: 12px;
+        text-align: center;
+        margin-left: 100px
+    }
+
+    .montako,
+    #puolueet {
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    .ehdokasyla {
+        margin-left: 90px
+    }
+}
+
+
+@media only screen and (max-width: 770px) {
+    .valinta {
+        width: 100%;
+        font-weight: 600;
+        padding: 3px;
+        margin-left: 0px
+    }
+
+    .linkkisp,
+    .alla-linkki {
+        margin-left: 50px;
+
+    }
+
+    .mielipide {
+        width: 100%;
+        margin-left: 0px;
+        font-size: 14px
+    }
+
+    .ehdokkaat {
+        font-size: 16px;
+        width: 100%;
+        padding: 5px
+    }
+
+    .oikeinicon {
+        width: 25px
+    }
+
+
+    h6 {
+        margin: 10px;
+
+    }
+
+    #kysely {
+        width: 100%
+    }
+
+    .tehoste {
+        font-size: 18px;
+        padding: 5px;
+        margin-left: 5px
+    }
+
+    input[type="button"] {
+        width: 120px;
+        font-size: 16px;
+        margin-top: 5px;
+
+    }
+
+    input[type="submit"] {
+
+        width: 120px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .lahetakysely {
+        font-size: 16px;
+    }
+
+    input[type="reset"] {
+        width: 120px;
+        font-size: 16px;
+        margin-top: 5px;
+
+    }
+
+    #tunnus {
+        margin-left: 10px
+    }
+
+    #puolueet,
+    .montako {
+        width: 60px;
+        font-size: 16px
+    }
+
+    .palkki {
+        width: 100%;
+        height: 150px
+    }
+
+    .container {
+        width: 100%
+    }
+
+    #saatila {
+        font-size: 12px;
+        font-weight: 600;
+        height: 40px;
+        width: 100%
+    }
+
+    .vaalikoneteesit {
+
+        padding: 5px;
+        font-size: 14px;
+        width: 100%
+    }
+
+    .py-55 {
+        margin-top: 150px !important
+    }
+
+    .card {
+        margin-left: 30px !important;
+        border: none
+    }
+
+    .containerr {
+        width: 100%;
+        margin-left: 0px
+    }
+
+    .card-footer {
+        width: 112%;
+        border: none
+    }
+
+
+    #tilasto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #aandata {
+        width: 100%;
+        margin-left: 0px
+    }
+
+    .paivitys {
+        margin-left: 40px;
+        font-size: 20px
+    }
+
+}
+
+@media only screen and (max-width: 630px) {
+
+    .container {
+        margin-left: 0px
+    }
+
+    .vaalikoneteesit {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #kysely {
+        margin-left: 0px
+    }
+
+    .ehdokkaat {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+        padding: 5px
+    }
+
+    .mielipide {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0px
+    }
+
+    .palkki {
+        width: 100%;
+        margin-left: 0px
+    }
+
+    .valinta {
+        width: 100%;
+        margin-left: 0px
+    }
+
+    .card {
+        margin-left: 0px;
+        padding: 3px !important;
+        width: 100%
+    }
+
+    .card-footer {
+        margin-left: 0px;
+        padding: 3px !important;
+    }
+
+    .h-100 {
+        margin-left: 0px !important;
+        padding: 3px !important;
+    }
+
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"],
+    #puolueet,
+    .montako {
+        width: 100px;
+        font-size: 12px;
+        margin-top: 5px;
+        height: 30px
+    }
+
+    input[type="submit"] {
+        margin-left: 0px
+    }
+
+
+    #sinunViesti {
+        height: 6em;
+        width: 20em;
+    }
+
+    #tyo {
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 55px;
+        width: 80%;
+    }
+
+    .card-img-top {
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-size: 1.3em
+    }
+
+    .card-title {
+        font-size: 1.5em
+    }
+
+    h6 {
+        font-size: 16px
+    }
+
+    .tehoste {
+        font-size: 16px
+    }
+
+    #saatila {
+        font-size: 10px;
+        font-weight: 600;
+        height: 40px;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 10px
+    }
+
+    .containerr,
+    .card-footer {
+        width: 95%;
+    }
+
+    #tilasto {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    #aandata {
+        width: 100%;
+        margin-left: 0px
+    }
+
+    .nimet,
+    .prosentit {
+        font-size: 10px;
+        margin: 3px
+    }
+
+    .ehdokaskuvat {
+        margin: 0px;
+    }
+
+    .lahetakysely {
+        margin-left: 10px
+    }
+
+    .paivitys {
+        margin-left: 0px
+    }
+
+    .ehdokasyla {
+        margin-left: 40px;
+
+    }
+
+    .linkkisp,
+    .alla-linkki {
+        margin-left: 35px
+    }
+
+}
+
+@media only screen and (max-width: 530px) {
+    .carousel-caption h3 {
+        font-size: 20px !important;
+    }
+
+    .py-5 {
+        font-size: 12px !important
+    }
+
+    th {
+        font-size: 12px !important;
+    }
+
+    #saatila {
+
+        padding: 0px;
+        width: 100%;
+    }
+
+    .alla-linkki {
+        height: 70px;
+        width: 300px;
+        font-size: 12px
+    }
+
+    .linkkisp {
+        font-size: 12px;
+        margin-left: 20px
+    }
+   #tyo {
+       margin-left:40px
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+    #sinunViesti {
+        height: 6em;
+        width: 14em;
+    }
+
+    h2 {
+        font-size: 24px
+    }
+
+
+    .valinta2 {
+        margin-left: 10px;
+        font-size: 16px
+    }
+
+    .mielipide {
+
+        margin-top: 15px;
+    }
+
+    .container label .fa {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    th {
+        font-size: 6px !important;
+
+    }
+
+    .alla-linkki {
+        height: 70px !important;
+        width: 300px;
+        font-size: 12px;
+        text-align: left;
+        margin-left: 5px;
+        margin-bottom: 205px
+    }
+
+    .linkkisp {
+        font-size: 12px;
+        margin-left: 5px;
+        text-align: left
+    }
+
+
+}
+
+
+@media only screen and (max-width: 385px) {
+
+    #sinunViesti {
+        height: 6em;
+        width: 14em;
+    }
+
+    h2 {
+        font-size: 22px
+    }
+
+    .carousel-caption .pieni {
+        font-size: 16px !important;
+    }
+
+    .navbar-brand {
+        font-size: 16px !important;
+        font-weight: 400
+    }
+       #tyo {
+       margin-left:30px
+    }
+}
+
+
+@media only screen and (max-width: 355px) {
+    .navbar-brand {
+        font-size: 13px !important;
+        font-weight: 400
+    }
+
+    #sinunViesti {
+        height: 6em;
+        width: 9em;
+    }
+
+    #tilasto {
+        width: 100% !important;
+        margin: 0px
+    }
+
+    .palkki {
+        height: 120px
+    }
+
+    .alla-linkki,
+    .linkkisp {
+        font-size: 10px;
+        padding: 2px !important
+    }
+
+    input[type="button"],
+    input[type="reset"] {
+        width: 100px;
+        font-size: 12px;
+        margin-top: 5px;
+        height: 30px;
+
+    }
+
+    input[type="submit"] {
+        font-size: 12px;
+        margin-top: 5px;
+        height: 30px;
+
+    }
+
+    .alla-linkki {
+        height: 60px;
+        width: 260px;
+        font-size: 12px;
+        text-align: left;
+        margin-left: 5px
+    }
+
+    .linkkisp {
+        font-size: 12px;
+
+    }
+
+    .omakuva {
+        margin-top: 5px
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .logo{
+        width:20px;
+        height:20px
+    }
+    .navbar-brand {
+        font-size: 10px !important;
+        font-weight: 400
+    }
+
+    th {
+        font-size: 13px
+    }
+
+    .montako,
+    #puolueet {
+        margin-left: 0px;
+        width: 80px
+    }
+
+    .ehdokasyla {
+        margin-left: 0px
+    }
+
+    .alla-linkki {
+
+        width: 200px;
+        height: 40px !important;
+        font-size: 10px;
+
+        margin-left: 0px;
+        padding-top: 10px !important;
+    }
+
+    .linkkisp {
+        font-size: 10px;
+        margin-left: 0px;
+
+    }
+
+    .omakuva {
+        display: none
+    }
+       #tyo {
+       margin-left:20px
+    }
+}
+
+/*------------------------------------------------*/
+/*Voit halutessasi poistaa navipalkista taustavärin, jolloin karusellin kuvat näkyvät navipalkin takana. Tai halutessasi lisätä navipalkkia enemmän läpinäkyväksi.*/
+/*------------------------------------------------*/
+/*Voit myös tehdä sliderin videoista, käytä silloin video-elementtiä img-elementin tilalla.*/
+
+/*------------------------------------------------*/
